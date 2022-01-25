@@ -1,0 +1,186 @@
+:root {
+    --header-height: 3rem;
+    --hue-color: 206;
+    --black-color: hsl(var(--hue-color), 4%, 4%);
+    --black-color-alt: hsl(var(--hue-color), 4%, 8%);
+    --title-color: hsl(var(--hue-color), 4%, 95%);
+    --text-color: hsl(var(--hue-color), 4%, 75%);
+    --text-color-light: hsl(var(--hue-color), 4%, 65%);
+    --white-color: #FFF;
+    --body-color: hsl(var(--hue-color), 4%, 6%);
+    --container-color: hsl(var(--hue-color), 4%, 10%);
+    --text-gradient: linear-gradient(hsl(var(--hue-color), 4%, 24%), hsl(var(--hue-color), 4%, 8%));
+    --scroll-thumb-color: hsl(var(--hue-color), 4%, 16%);
+    --scroll-thumb-color-alt: hsl(var(--hue-color), 4%, 20%);
+    --body-font: 'Poppins', sans-serif;
+    --biggest-font-size: 5rem;
+    --bigger-font-size: 3.5rem;
+    --big-font-size: 2.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1.125rem;
+    --normal-font-size: .938rem;
+    --small-font-size: .813rem;
+    --smaller-font-size: .75rem;
+    --text-line-height: 2rem;
+    --font-medium: 500;
+    --font-semi-bold: 600;
+    --mb-0-5: .5rem;
+    --mb-0-75: .75rem;
+    --mb-1: 1rem;
+    --mb-1-5: 1.5rem;
+    --mb-2: 2rem;
+    --mb-2-5: 2.5rem;
+    --z-tooltip: 10;
+    --z-fixed: 100;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--body-font);
+    justify-content: center;
+    width: 100vw;
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    background-color: var(--body-color);
+    color: var(--text-color);
+    overflow-x: hidden;
+}
+
+.container {
+    position: relative;
+    width: 60%;
+    margin: auto;
+    max-width: 870px;
+}
+
+.container>nav {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    height: 4.2rem;
+    align-items: center;
+}
+
+.container>nav .logo {
+    color: #DAA520;
+    font-size: var(--big-font-size);
+    text-transform: capitalize;
+}
+
+.container>nav nav {
+    display: flex;
+    position: relative;
+}
+
+.container>nav nav .links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.container>nav nav .links a {
+    font-size: var(--h2-font-size);
+    text-transform: capitalize;
+    font-weight: var(--font-semi-bold);
+    background: var(--text-gradient);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    transition: .4s;
+}
+
+.container .hamburger {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    display: none;
+}
+
+.container .hamburger div {
+    width: 30px;
+    height: 3px;
+    background-color: #DAA520;
+    position: relative;
+    margin: 6px auto;
+    border-radius: 2px;
+    transition: 0.7s;
+    transform: rotate(0deg) translateY(0px);
+}
+
+.active-menu {}
+
+.active-menu div:nth-child(1) {
+    transform: translateY(9px) rotate(45deg);
+    transition: 0.7s;
+}
+
+.active-menu div:nth-child(3) {
+    transform: translateY(-9px) rotate(-45deg);
+    transition: 0.7s;
+}
+
+.active-menu div:nth-child(2) {
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.section-big-hero {
+    display: flex;
+    position: relative;
+    width: 100%;
+    padding-block: 60px;
+}
+
+.section-big-hero .img {
+    width: 50%;
+}
+
+.section-big-hero img {
+    width: 600px;
+    z-index: -1;
+    position: relative;
+    left: -100px;
+}
+
+.section-big-hero .hero-info {
+    width: 50%;
+    padding-inline-start: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 50px;
+    position: relative;
+    margin-block-start: 70px;
+}
+
+.section-big-hero .hero-info .showcase-product-title {
+    font-size: 50px;
+    color: #DAA520;
+}
+
+.section-big-hero .hero-info .showcase-product-cta button {
+    padding: 20px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: var(--black-color);
+    color: var(--text-color);
+}
+
+.section-big-hero .hero-info .showcase-product-cta button p {
+    display: inline;
+    margin-inline-end: 10px;
+}
