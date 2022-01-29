@@ -410,3 +410,106 @@ body {
 .more-products .content .product-card a span {
     color: var(--text-color);
 }
+
+.footer .grid {
+    margin-block-start: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.footer .grid .logo {
+    text-transform: capitalize;
+    color: #DAA520;
+    grid-column: 1/2;
+}
+
+.footer .grid .product-info {
+    grid-column: 2/4;
+}
+
+.footer .grid .company-info {
+    grid-column: 4/6;
+}
+
+.footer .grid .product-info h3,
+.footer .grid .company-info h3 {
+    font-weight: bold;
+}
+
+.footer .grid .product-info ul,
+.footer .grid .company-info ul {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.footer .grid .product-info ul li,
+.footer .grid .company-info ul li {
+    margin: 10px 0px;
+    cursor: pointer;
+}
+
+.footer .contact-info {
+    grid-column: 6/9;
+}
+
+.footer .contact-info .email-contact-form {
+    position: relative;
+    background-color: hsl(206deg 5.17% 11.38%);
+    height: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 10px;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.footer .contact-info .email-contact-form input {
+    display: inline;
+    grid-column: 1/4;
+    height: 30px;
+    outline: none;
+    border: none;
+    background: transparent;
+    color: var(--text-color);
+}
+
+.footer .contact-info .email-contact-form button {
+    grid-column: 4/6;
+    height: 40px;
+    padding: 10px 10px;
+    border-radius: inherit;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    background-color: var(--body-color);
+    color: var(--text-color);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    width: fit-content;
+}
+
+.footer .grid .contact-info .socials {
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+    margin-block-start: 10px;
+}
+
+.footer .grid .contact-info .socials span {
+    display: inline-block;
+    padding: 10px;
+    background-color: hsl(206deg 5.17% 11.38%);
+    border-radius: 10px;
+}
+
+.footer .copyright {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding-block-start: 3.5rem;
+    padding-block-end: 50px;
+}
