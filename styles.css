@@ -513,3 +513,69 @@ body {
     padding-block-start: 3.5rem;
     padding-block-end: 50px;
 }
+
+@media screen and ( max-width: 1300px) {
+    .container {
+        width: 100%;
+    }
+    .section-big-hero .hero-info .showcase-product-title {
+        font-size: 2.5rem;
+    }
+    .section-big-hero .hero-info {
+        gap: 30px;
+        margin-block-start: 40px;
+    }
+    .featured-product .heading {
+        font-size: 1.5rem;
+    }
+    .case .heading {
+        font-size: 1.5rem;
+    }
+    .case .content img {
+        max-width: 350px;
+    }
+    .more-products .heading {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and ( max-width: 890px) {
+    .container {
+        padding-inline: 20px;
+    }
+    .section-big-hero .hero-info {
+        padding-inline: unset;
+    }
+    .section-big-hero img {
+        left: -150px;
+    }
+}
+
+@media screen and ( max-width: 690px) {
+    .container>nav .logo {
+        font-size: 2rem;
+    }
+    .featured-product img {
+        width: 300px;
+        height: 300px;
+    }
+    .more-products .content .product-card {
+        width: 170px;
+    }
+    .more-products .content .product-card img {
+        width: 150px;
+    }
+    .footer .contact-info .email-contact-form {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+    .footer .contact-info .email-contact-form button {
+        gap: 5px;
+        padding: 5px;
+    }
+    .footer .contact-info .email-contact-form input {
+        grid-column: 1/5;
+    }
+    .footer .contact-info .email-contact-form button {
+        grid-column: 5/8;
+    }
+}
