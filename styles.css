@@ -652,3 +652,151 @@ body {
         padding: 8px;
     }
 }
+
+@media screen and ( max-width: 455px) {
+    .section-big-hero img {
+        left: -90px;
+        width: 350px;
+    }
+    .section-big-hero .hero-info .showcase-product-cta button {
+        padding: 10px;
+    }
+    .cta-section img {
+        width: 200px;
+        right: -40px;
+        position: relative;
+    }
+    .cta-section .cta-text .cta-button {
+        padding: 10px;
+    }
+    .more-products .content .product-card img {
+        top: 0px;
+    }
+    .featured-product .content {
+        display: flex;
+        flex-direction: column;
+    }
+    .featured-product img {
+        width: 100%;
+        height: auto;
+        left: unset;
+        right: unset;
+        top: unset;
+        bottom: unset;
+        margin-top: unset;
+    }
+    .featured-product .featured-product-specs {
+        margin-block-start: unset;
+        margin-top: unset;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 20px;
+        left: unset;
+        right: unset;
+        top: unset;
+        bottom: unset;
+    }
+    .featured-product .featured-product-specs .spec {
+        left: unset;
+    }
+    .featured-product .featured-product-specs .name {
+        position: absolute;
+        top: -50px;
+    }
+    .section-partners .partner svg {
+        width: 40px;
+    }
+    .more-products .content .product-card {
+        height: 130px;
+    }
+    .cta-section {
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .cta-section img {
+        width: 100%;
+        left: unset;
+        right: unset;
+    }
+    .footer .grid {
+        display: flex;
+        flex-direction: column;
+        margin-block-start: 50px;
+        gap: 30px;
+    }
+    .footer .grid .product-info ul,
+    .footer .grid .company-info ul {
+        margin-top: 10px;
+    }
+    .footer .contact-info .email-contact-form {
+        width: 250px;
+        height: unset;
+    }
+    .footer .contact-info .email-contact-form button {
+        height: 20px;
+    }
+    .footer .contact-info .email-contact-form input {
+        height: 20px;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    body {
+        font-size: 0.75rem;
+    }
+    .container>nav nav .open-menu {
+        top: 2rem;
+        right: -20px;
+    }
+    .section-big-hero {
+        display: flex;
+        flex-direction: column;
+    }
+    .section-big-hero .img {
+        width: 100%;
+    }
+    .section-big-hero img {
+        width: 100%;
+        left: unset;
+        right: unset;
+        top: unset;
+        bottom: unset;
+        right: -30px;
+        top: -50px;
+    }
+    .section-big-hero .hero-info {
+        margin-block-start: unset;
+        top: -70px;
+        width: 100%;
+    }
+    .section-partners {
+        padding-block-start: unset;
+    }
+    .more-products .content {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .case .content {
+        flex-direction: column;
+        gap: 30px;
+        padding-block-start: unset;
+    }
+    .footer .contact-info .email-contact-form {
+        width: 100%;
+    }
+    .footer .contact-info .email-contact-form input {
+        grid-column: 1 / 6;
+    }
+    .footer .contact-info .email-contact-form button {
+        grid-column: 6/8;
+    }
+    .footer .contact-info .email-contact-form button p {
+        display: none;
+    }
+}
