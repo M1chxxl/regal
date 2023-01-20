@@ -1,0 +1,433 @@
+[{
+        "sku": "SW1001",
+        "name": "Regal Explorer",
+        "remark": "Feel the spirit of adventure on your wrist.",
+        "battery_duration": "48 hours",
+        "bluetooth_version": "5.0",
+        "specs": "1.5-inch AMOLED display, heart rate monitor, GPS",
+        "weight": "50g",
+        "ram": "1GB",
+        "storage": "16GB",
+        "features": [
+            "Water resistant",
+            "Voice assistant",
+            "Sleep tracking"
+        ]
+    },
+    {
+        "sku": "SW1002",
+        "name": "Regal Voyager",
+        "remark": "Navigate your journey with confidence.",
+        "battery_duration": "72 hours",
+        "bluetooth_version": "5.0",
+        "specs": "1.4-inch LCD display, SpO2 sensor, altimeter",
+        "weight": "48g",
+        "ram": "1GB",
+        "storage": "16GB",
+        "features": [
+            "Music control",
+            "Fitness tracking",
+            "NFC payments"
+        ]
+    },
+    {
+        "sku": "SW1003",
+        "name": "Regal Pioneer",
+        "remark": "Lead the way with pioneering technology.",
+        "battery_duration": "24 hours",
+        "bluetooth_version": "5.1",
+        "specs": "1.6-inch OLED display, ECG, GPS",
+        "weight": "55g",
+        "ram": "2GB",
+        "storage": "32GB",
+        "features": [
+            "Wireless charging",
+            "Stress monitoring",
+            "Swim-proof"
+        ]
+    },
+    {
+        "sku": "SW1004",
+        "name": "Regal Nomad",
+        "remark": "Embrace the freedom of the unknown.",
+        "battery_duration": "60 hours",
+        "bluetooth_version": "4.2",
+        "specs": "1.3-inch TFT display, heart rate monitor, barometer",
+        "weight": "45g",
+        "ram": "1GB",
+        "storage": "8GB",
+        "features": [
+            "Weather updates",
+            "Activity tracking",
+            "SOS alert"
+        ]
+    },
+    {
+        "sku": "SW1005",
+        "name": "Regal Trailblazer",
+        "remark": "Blaze your own trails with innovation.",
+        "battery_duration": "36 hours",
+        "bluetooth_version": "5.0",
+        "specs": "1.5-inch AMOLED display, SpO2 sensor, GPS",
+        "weight": "52g",
+        "ram": "1GB",
+        "storage": "16GB",
+        "features": [
+            "Voice assistant",
+            "Music storage",
+            "Heart rate variability"
+        ]
+    },
+    {
+        "sku": "SW1006",
+        "name": "Regal Pathfinder",
+        "remark": "Chart your path with precision.",
+        "battery_duration": "48 hours",
+        "bluetooth_version": "5.1",
+        "specs": "1.4-inch LCD display, ECG, altimeter",
+        "weight": "50g",
+        "ram": "1GB",
+        "storage": "32GB",
+        "features": [
+            "NFC payments",
+            "Advanced sleep tracking",
+            "Stress monitoring"
+        ]
+    },
+    {
+        "sku": "SW1007",
+        "name": "Regal Maverick",
+        "remark": "Stand out with maverick flair.",
+        "battery_duration": "24 hours",
+        "bluetooth_version": "4.2",
+        "specs": "1.6-inch OLED display, heart rate monitor, GPS",
+        "weight": "55g",
+        "ram": "2GB",
+        "storage": "16GB",
+        "features": [
+            "Swim-proof",
+            "Fitness tracking",
+            "Voice assistant"
+        ]
+    },
+    {
+        "sku": "SW1008",
+        "name": "Regal Conqueror",
+        "remark": "Conquer challenges with determination.",
+        "battery_duration": "72 hours",
+        "bluetooth_version": "5.0",
+        "specs": "1.3-inch TFT display, SpO2 sensor, barometer",
+        "weight": "47g",
+        "ram": "1GB",
+        "storage": "8GB",
+        "features": [
+            "SOS alert",
+            "Weather updates",
+            "Music control"
+        ]
+    },
+    {
+        "sku": "SW1009",
+        "name": "Regal Adventurer",
+        "remark": "Adventure awaits with every tick.",
+        "battery_duration": "36 hours",
+        "bluetooth_version": "5.1",
+        "specs": "1.5-inch AMOLED display, ECG, GPS",
+        "weight": "54g",
+        "ram": "2GB",
+        "storage": "32GB",
+        "features": [
+            "Heart rate variability",
+            "Stress monitoring",
+            "Wireless charging"
+        ]
+    },
+    {
+        "sku": "SW1010",
+        "name": "Regal Summit",
+        "remark": "Reach new heights with summit-grade design.",
+        "battery_duration": "48 hours",
+        "bluetooth_version": "5.0",
+        "specs": "1.4-inch LCD display, heart rate monitor, altimeter",
+        "weight": "51g",
+        "ram": "1GB",
+        "storage": "16GB",
+        "features": [
+            "Advanced sleep tracking",
+            "NFC payments",
+            "Voice assistant"
+        ]
+    },
+    {
+        "sku": "SW1011",
+        "name": "Regal Frontier",
+        "remark": "Expand your horizons with frontier spirit.",
+        "battery_duration": "24 hours",
+        "bluetooth_version": "4.2",
+        "specs": "1.6-inch OLED display, SpO2 sensor, GPS",
+        "weight": "56g",
+        "ram": "1GB",
+        "storage": "8GB",
+        "features": [
+            "Fitness tracking",
+            "Swim-proof",
+            "Music storage"
+        ]
+    },
+    {
+        "sku": "SW1012",
+        "name": "Regal Horizon",
+        "remark": "Explore the endless horizon with confidence.",
+        "battery_duration": "60 hours",
+        "bluetooth_version": "5.1",
+        "specs": "1.3-inch TFT display, ECG, barometer",
+        "weight": "46g",
+        "ram": "2GB",
+        "storage": "16GB",
+        "features": [
+            "Music control",
+            "Weather updates",
+            "SOS alert"
+        ]
+    },
+    {
+        "sku": "SW1013",
+        "name": "Regal Ascend",
+        "remark": "Ascend to greatness with every second.",
+        "battery_duration": "36 hours",
+        "bluetooth_version": "5.0",
+        "specs": "1.5-inch AMOLED display, heart rate monitor, GPS",
+        "weight": "53g",
+        "ram": "1GB",
+        "storage": "32GB",
+        "features": [
+            "Stress monitoring",
+            "Wireless charging",
+            "Heart rate variability"
+        ]
+    },
+    {
+        "sku": "SW1014",
+        "name": "Regal Wanderer",
+        "remark": "Wander with purpose and style.",
+        "battery_duration": "48 hours",
+        "bluetooth_version": "4.2",
+        "specs": "1.4-inch LCD display, SpO2 sensor, altimeter",
+        "weight": "49g",
+        "ram": "1GB",
+        "storage": "16GB",
+        "features": [
+            "Voice assistant",
+            "Advanced sleep tracking",
+            "NFC payments"
+        ]
+    },
+    {
+        "sku": "SW1015",
+        "name": "Regal Roamer",
+        "remark": "Roam freely with cutting-edge technology.",
+        "battery_duration": "24 hours",
+        "bluetooth_version": "5.1",
+        "specs": "1.6-inch OLED display, heart rate monitor, GPS",
+        "weight": "57g",
+        "ram": "2GB",
+        "storage": "8GB",
+        "features": [
+            "Swim-proof",
+            "Music storage",
+            "Fitness tracking"
+        ]
+    },
+    {
+        "sku": "SW1016",
+        "name": "Regal Navigator",
+        "remark": "Navigate life's journey with precision.",
+        "battery_duration": "72 hours",
+        "bluetooth_version": "5.0",
+        "specs": "1.3-inch TFT display, ECG, barometer",
+        "weight": "48g",
+        "ram": "1GB",
+        "storage": "32GB",
+        "features": [
+            "SOS alert",
+            "Music control",
+            "Weather updates"
+        ]
+    },
+    {
+        "sku": "SW1017",
+        "name": "Regal Seeker",
+        "remark": "Seek out new adventures fearlessly.",
+        "battery_duration": "36 hours",
+        "bluetooth_version": "5.1",
+        "specs": "1.5-inch AMOLED display, SpO2 sensor, GPS",
+        "weight": "55g",
+        "ram": "1GB",
+        "storage": "16GB",
+        "features": [
+            "Wireless charging",
+            "Stress monitoring",
+            "Heart rate variability"
+        ]
+    },
+    {
+        "sku": "SW1018",
+        "name": "Regal Expedition",
+        "remark": "Embark on expeditions with unparalleled style.",
+        "battery_duration": "48 hours",
+        "bluetooth_version": "5.0",
+        "specs": "1.4-inch LCD display, heart rate monitor, altimeter",
+        "weight": "51g",
+        "ram": "1GB",
+        "storage": "16GB",
+        "features": [
+            "Voice assistant",
+            "Advanced sleep tracking",
+            "NFC payments"
+        ]
+    },
+    {
+        "sku": "SW1019",
+        "name": "Regal Spirit",
+        "remark": "Capture the adventurous spirit in every moment.",
+        "battery_duration": "60 hours",
+        "bluetooth_version": "4.2",
+        "specs": "1.3-inch TFT display, SpO2 sensor, GPS",
+        "weight": "47g",
+        "ram": "1GB",
+        "storage": "8GB",
+        "features": [
+            "Music control",
+            "Weather updates",
+            "SOS alert"
+        ]
+    },
+    {
+        "sku": "SW1020",
+        "name": "Regal Outlander",
+        "remark": "Outlandish design for the daring explorer.",
+        "battery_duration": "36 hours",
+        "bluetooth_version": "5.1",
+        "specs": "1.5-inch AMOLED display, ECG, GPS",
+        "weight": "54g",
+        "ram": "2GB",
+        "storage": "32GB",
+        "features": [
+            "Wireless charging",
+            "Heart rate variability",
+            "Stress monitoring"
+        ]
+    },
+    {
+        "sku": "SW1021",
+        "name": "Regal Sentinel",
+        "remark": "Guard your time with sentinel precision.",
+        "battery_duration": "48 hours",
+        "bluetooth_version": "5.0",
+        "specs": "1.4-inch LCD display, heart rate monitor, altimeter",
+        "weight": "50g",
+        "ram": "1GB",
+        "storage": "16GB",
+        "features": [
+            "Advanced sleep tracking",
+            "Voice assistant",
+            "NFC payments"
+        ]
+    },
+    {
+        "sku": "SW1022",
+        "name": "Regal Voyager Pro",
+        "remark": "Professional-grade performance for the ultimate voyage.",
+        "battery_duration": "24 hours",
+        "bluetooth_version": "4.2",
+        "specs": "1.6-inch OLED display, SpO2 sensor, GPS",
+        "weight": "56g",
+        "ram": "1GB",
+        "storage": "8GB",
+        "features": [
+            "Swim-proof",
+            "Music storage",
+            "Fitness tracking"
+        ]
+    },
+    {
+        "sku": "SW1023",
+        "name": "Regal Innovator",
+        "remark": "Innovative design for the modern trailblazer.",
+        "battery_duration": "72 hours",
+        "bluetooth_version": "5.1",
+        "specs": "1.3-inch TFT display, ECG, barometer",
+        "weight": "48g",
+        "ram": "1GB",
+        "storage": "32GB",
+        "features": [
+            "SOS alert",
+            "Music control",
+            "Weather updates"
+        ]
+    },
+    {
+        "sku": "SW1024",
+        "name": "Regal Voyager X",
+        "remark": "Explore beyond limits with the Voyager X.",
+        "battery_duration": "36 hours",
+        "bluetooth_version": "5.0",
+        "specs": "1.5-inch AMOLED display, heart rate monitor, GPS",
+        "weight": "53g",
+        "ram": "2GB",
+        "storage": "16GB",
+        "features": [
+            "Stress monitoring",
+            "Wireless charging",
+            "Heart rate variability"
+        ]
+    },
+    {
+        "sku": "SW1025",
+        "name": "Regal Navigator Pro",
+        "remark": "Professional navigation for your life's journey.",
+        "battery_duration": "48 hours",
+        "bluetooth_version": "5.1",
+        "specs": "1.4-inch LCD display, SpO2 sensor, altimeter",
+        "weight": "49g",
+        "ram": "1GB",
+        "storage": "16GB",
+        "features": [
+            "Voice assistant",
+            "Advanced sleep tracking",
+            "NFC payments"
+        ]
+    },
+    {
+        "sku": "SW1026",
+        "name": "Regal Pathfinder X",
+        "remark": "Find your way with the ultimate Pathfinder X.",
+        "battery_duration": "24 hours",
+        "bluetooth_version": "4.2",
+        "specs": "1.6-inch OLED display, heart rate monitor, GPS",
+        "weight": "57g",
+        "ram": "2GB",
+        "storage": "8GB",
+        "features": [
+            "Swim-proof",
+            "Music storage",
+            "Fitness tracking"
+        ]
+    },
+    {
+        "sku": "SW1027",
+        "name": "Regal Horizon Pro",
+        "remark": "Expand your horizons with the Horizon Pro.",
+        "battery_duration": "60 hours",
+        "bluetooth_version": "5.0",
+        "specs": "1.3-inch TFT display, ECG, barometer",
+        "weight": "46g",
+        "ram": "1GB",
+        "storage": "16GB",
+        "features": [
+            "Music control",
+            "Weather updates",
+            "SOS alert"
+        ]
+    }
+]
